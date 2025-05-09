@@ -8,14 +8,14 @@ import argparse
 
 f = Tracker()
 avaliable_functions = {
-    "add" : f.add, # expense-tracker.py add --description "Lunch" --category "Food" --amount 20
-    "update" : f.update, # expense-tracker.py update --id 2 --description "Breakfast" --category "Food" --amount 12
-    "delete" : f.delete, # expense-tracker.py delete --id 1
+    "add" : f.add,
+    "update" : f.update,
+    "delete" : f.delete,
     "delete_all" : f.delete_all,
-    "enlist" : f.enlist, # expense-tracker.py enlist
-    "summarise" : f.summarise, # expense-tracker.py summarise --year 2025 expense-tracker.py summarise --year 2025 --month 1 expense-tracker.py summarise --year 2025 --category Food expense-tracker.py summarise --year 2025 --category Food --month 1
-    "set_budget" : f.set_budget, # expense-tracker.py set_budget --budget 200 --year 2025 --month 1
-    "delete_budget" : f.delete_budget # expense-tracker.py delete_budget --year 2025 --month 1
+    "enlist" : f.enlist,
+    "summarise" : f.summarise,
+    "set_budget" : f.set_budget,
+    "delete_budget" : f.delete_budget
 }
 
 parser = argparse.ArgumentParser()
