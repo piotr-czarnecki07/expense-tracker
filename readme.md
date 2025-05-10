@@ -4,7 +4,7 @@
 CLI application for managing expenses\
 App stores given expenses in a form of the `csv` file
 
-## Features
+# Features
 
 - Possibility to set the budget property for a specific month and year (after exceeding the budget, a message will be shown)
 
@@ -14,14 +14,18 @@ App stores given expenses in a form of the `csv` file
 
 # How to Use
 
-1. Set the Command Prompt's current directory as the file `expense-tracker.py` directory
-2. Enter file's name `expense-tracker.py`
-3. Choose a proper command
-4. Provide required arguments with `--` prefix, e.g. `--description`
+1. Install dependencies from `requirements.txt`
+2. Set the Command Prompt's current directory as the file `expense-tracker.py` directory
+3. Enter file's name `expense-tracker.py` and choose a proper command
+4. Provide required arguments with `--` prefix, e.g. `--description Breakfast`
+
+### Example prompt
+
+`expense-tracker.py add --description Breakfast --amount 20 --category Food`
 
 # Commands
 
-Format: command_name `--required_argument1` `--required_argument2` etc.
+Format: expense-tracker.py command_name `--required_argument1` `--required_argument2` ...
 
 - add `--description`, `--amount`, `--category`
 - update `--id`, `--description`, `--amount`, `--category`
@@ -41,4 +45,4 @@ Proper date format is `dd.mm.yyyy`
 # Credits
 
 Idea: https://roadmap.sh/projects/expense-tracker \
-Code: https://github.com/piotr-czarnecki-dev
+Code: https://github.com/piotr-czarnecki07
