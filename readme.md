@@ -42,6 +42,11 @@ Arguments order does not have to be preserved\
 Additional argument `--date` can be provided to add command, this means that the expense was made, or will be made on the entered date\
 Proper date format is `dd.mm.yyyy`
 
+# Licence
+
+This project is licensed under the MIT License \
+See [LICENSE](./LICENSE) for more information
+
 # Credits
 
 Idea: https://roadmap.sh/projects/expense-tracker \
