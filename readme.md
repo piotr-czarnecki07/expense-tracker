@@ -35,7 +35,7 @@ Format: `expense-tracker.py command_name --required_argument1 --required_argumen
 - `delete` `--id`
 - `delete_all` (no arguments)
 - `enlist` (no arguments)
-- `summarise` `--year`, `--month`, `--category` *(each argument is optional; output is based on the provided arguments)*
+- `summarise` `--year`, `--month`, `--category` *(each argument is optional; output is based on the provided arguments) (month should be in integer format)*
 - `set_budget` `--year`, `--month`, `--budget`
 - `delete_budget` `--year`, `--month`
 
