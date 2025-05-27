@@ -247,8 +247,8 @@ class Tracker:
                 reader = csv.reader(file)
                 next(reader)
 
-            for row in list(reader):
-                self.delete(self_executed=True, id_number=int(row[0]))
+                for row in list(reader):
+                    self.delete(self_executed=True, id_number=int(row[0]))
             self._update_settings(last_id=0)
 
         except FileNotFoundError:
