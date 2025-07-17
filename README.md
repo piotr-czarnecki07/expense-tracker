@@ -6,11 +6,11 @@ App stores given expenses in the form of a `csv` file. \
 Allows user to keep track of their expenses and makes it easier to not exceed.
 
 ## Table of contents
-- [Features](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/readme.md#table-of-contents)
-- [How to Use](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/readme.md#how-to-use)
-- [Commands](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/readme.md#commands)
-- [Licence](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/readme.md#licence)
-- [Credits](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/readme.md#credits)
+- [Features](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/README.md#table-of-contents)
+- [How to Use](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/README.md#how-to-use)
+- [Commands](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/README.md#commands)
+- [Licence](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/README.md#licence)
+- [Credits](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/README.md#credits)
 
 ## Features
 
