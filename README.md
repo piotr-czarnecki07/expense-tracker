@@ -1,16 +1,24 @@
 
-# Overview
+# expense-tracker
 
-CLI application for managing expenses.  
-The app stores given expenses in the form of a `csv` file.
+CLI application for managing expenses. \
+App stores given expenses in the form of a `csv` file. \
+Allows user to keep track of their expenses and makes it easier to not exceed.
 
-# Features
+## Table of contents
+- [Features](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/readme.md#table-of-contents)
+- [How to Use](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/readme.md#how-to-use)
+- [Commands](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/readme.md#commands)
+- [Licence](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/readme.md#licence)
+- [Credits](https://github.com/piotr-czarnecki07/expense-tracker/edit/main/readme.md#credits)
+
+## Features
 
 - Ability to set a budget for a specific month and year (a message will be shown if the budget is exceeded).
 - Quick expense summary achieved by updating the sums for specific attributes after each expense change.
 - Expenses are available in the `expenses.csv` file located in the `Data/` directory.
 
-# How to Use
+## How to Use
 
 1. Ensure Python 3.10+ is installed.
 2. Install dependencies from `requirements.txt`.
@@ -26,7 +34,7 @@ expense-tracker.py delete --id 1
 expense-tracker.py enlist
 ```
 
-# Commands
+## Commands
 
 Format: `expense-tracker.py command_name --required_argument1 --required_argument2 ...`
 
@@ -39,19 +47,18 @@ Format: `expense-tracker.py command_name --required_argument1 --required_argumen
 - `set_budget` `--year`, `--month`, `--budget`
 - `delete_budget` `--year`, `--month`
 
-### Info
+### Disclaimer
 
 - You will be given an expense ID after adding it. Alternatively, you can view all IDs by running the `enlist` command.  
 - The order of arguments does not need to be preserved.  
 - An additional argument `--date` can be provided to the `add` command, indicating the date the expense was made or will be made.  
 - The proper date format is `dd.mm.yyyy`.
 
-# Licence
+## Licence
 
 This project is licensed under the MIT License \
 See [LICENSE](./LICENSE) for more information
 
-# Credits
+## Credits
 
-Idea: https://roadmap.sh/projects/expense-tracker \
-Code: https://github.com/piotr-czarnecki07
+Idea: https://roadmap.sh/projects/expense-tracker
